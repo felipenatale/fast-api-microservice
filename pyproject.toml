@@ -1,0 +1,3 @@
+[tool.taskipy.tasks]
+test = 'pytest -s -x --cov=main -vv'
+post_test = 'coverage html'

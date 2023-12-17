@@ -1,0 +1,12 @@
+fastapi==0.104.1
+Werkzeug==3.0.0
+requests==2.30.0
+gunicorn==21.1.0
+uvicorn==0.24.0
+SQLAlchemy==2.0.22
+setuptools==62.6.0
+mysqlclient==2.1.1
+pytest==7.4.3
+pytest-cov==4.1.0
+taskipy==1.12.2
+httpx==0.25.2
