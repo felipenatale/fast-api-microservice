@@ -19,16 +19,18 @@ Melhorar documentação
 
 Criação de conexão com BD para CRUD 
 1. add client
-2. get clients
+2. get clients - DONE
 3. remove client
-4. arquivo de config e uso do .env
+4. arquivo de config e uso do .env - DONE
+5. conexão com banco de dados - DONE
+6. criação automática das tables no BD
 
 Criação e uso de design patter
 1. add design patter
 
 Criação de testes unitários
 1. testar main - DONE
-2. testar healthcheck
+2. testar healthcheck - DONE
 3. testar outros endpoints
 
 Adicionar servidor web
