@@ -4,6 +4,10 @@ from database.db_config import Base
 class Client(Base):
     __tablename__ = 'client'
 
+    def __init__(self, **kwargs):
+        for key, value in kwargs.items():
+            setattr(self, key, value)
+
     id = Column(Integer, primary_key=True)
     name = Column(String)
     document = Column(String)
