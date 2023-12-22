@@ -18,9 +18,9 @@ Melhorar documentação
 4. explicar uso do "task" e do uso do pytest/coverage
 
 Criação de conexão com BD para CRUD 
-1. add client
+1. add client - DONE
 2. get clients - DONE
-3. remove client
+3. remove client - DONE
 4. arquivo de config e uso do .env - DONE
 5. conexão com banco de dados - DONE
 6. criação automática das tables no BD

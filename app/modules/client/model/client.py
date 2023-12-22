@@ -1,5 +1,6 @@
 from sqlalchemy import Column, Integer, String, Numeric, DateTime
 from database.db_config import Base
+from pydantic import BaseModel
 
 class Client(Base):
     __tablename__ = 'client'
@@ -17,3 +18,12 @@ class Client(Base):
     
     def __repr__(self):
         return f'id: {self.id}, name: {self.name}'
+
+class ClientSchema(BaseModel):
+    name : str
+    document : str
+    address : str
+    created_at: str
+
+class UpdateSchema(BaseModel):
+    address : str
