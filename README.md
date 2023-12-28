@@ -19,6 +19,13 @@ Criação de um microserviço:
 Estrutura do microserviço
 ![alt text](./assets/microservice.png "Estrutura")
 
+O projeto seguiu uma estrutura de separação de responsabilidades, baixo acoplamento, alta coesão, contado com 5 camadas:
+- controler: controlador das requisições e desacoplamento entre endpoints
+- model: modelagem dos dados (entity) e DTO para manipulação de dados (ClientSchema e UpdateSchema)
+- repository: manipulação do ORM
+- service: camada para manipulação de regras de negócios
+- database: configuração da interface com banco de dados
+
 Documentação
 - http://127.0.0.1:8000/docs -> SwaggerUI
 - http://127.0.0.1:8000/redoc -> openapi specification 
