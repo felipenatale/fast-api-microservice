@@ -29,6 +29,22 @@ SwaggerUI
 OpenAPI
 ![alt text](./assets/openapi.png "openapi")
 
+DDL da criação da table no banco de dados:
+
+```SQL
+CREATE TABLE client_db.client (
+	id INTEGER auto_increment NOT NULL,
+	name varchar(100) NULL,
+	document varchar(100) NULL,
+	address varchar(100) NULL,
+	created_at TIMESTAMP NULL,
+	deleted_at TIMESTAMP NULL
+)
+ENGINE=InnoDB
+DEFAULT CHARSET=utf8mb4
+COLLATE=utf8mb4_0900_ai_ci;
+```
+
 List de próximos passos:
 
 Melhorar documentação
