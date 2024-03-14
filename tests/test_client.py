@@ -6,10 +6,10 @@ from alchemy_mock.mocking import UnifiedAlchemyMagicMock
 
 def test_inserindo_cliente_deve_retornar_sucesso():
     
-    # session = UnifiedAlchemyMagicMock()
+    session = UnifiedAlchemyMagicMock()
 
-    # client = Client(name="Joao", document="32165498723", address="Rua Polar")
-    # session.add(client)
-    # session.commit()
+    client = Client(name="Joao", document="32165498723", address="Rua Polar")
+    session.add(client)
+    session.commit()
 
     assert True == True

@@ -45,7 +45,8 @@ CREATE TABLE client_db.client (
 	document varchar(100) NULL,
 	address varchar(100) NULL,
 	created_at TIMESTAMP NULL,
-	deleted_at TIMESTAMP NULL
+	deleted_at TIMESTAMP NULL,
+	CONSTRAINT pk_id PRIMARY KEY (id)
 )
 ENGINE=InnoDB
 DEFAULT CHARSET=utf8mb4
