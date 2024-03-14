@@ -12,7 +12,7 @@ Criação de um microserviço:
     - Rodar o dev container
     - Executar o "RUN AND DEBUG" para subir a aplicação
 - Aplicação utiliza a linguagem python e o framework FastAPI. O FastAPI foi escolhido por apresentar simplicidade e robustez.
-- O microserviço conta com um CRUD de usuários, healthcheck, teste unitários e documentação
+- O microserviço conta com healthcheck, teste unitários e documentação
 - A documentação segue o padrão swagger e a especificação OPENAPI.
 - A aplicação conta com o uso da lib "Task" do python para automatizar algumas tarefas, como a execução de teste e coverage.
 
